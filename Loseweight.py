@@ -14,6 +14,6 @@ days_to_lose = int(input("Please enter the number of days you want to lose that 
 total_calories, daily_calories = calories_to_lose_weight(weight_to_lose, days=30)
 
 print(f"\nTo lose {weight_to_lose} kg you need to burn aproximately {total_calories:.0f} calories")
-print(f"That is equal to {daily_calories:,.0f} calories per day for {days_to_lose} days")
+print(f"That is equal to {daily_calories:.0f} calories per day for {days_to_lose} days")
 
 
